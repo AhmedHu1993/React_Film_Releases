@@ -1,7 +1,7 @@
 import React, {Component, Fragment} from 'react';
 import FilmList from '../components/FilmList'
 import UpcomingReleases from '../components/UpcomingReleases'
-// import '../App.css';
+import '../App.css';
 
 
 class FilmsBox extends Component {

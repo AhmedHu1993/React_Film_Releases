@@ -1,5 +1,6 @@
 import React, {Component, Fragment} from 'react';
 import Film from './Film'
+import '../App.css';
 
 class FilmList extends Component {
 

@@ -1,6 +1,8 @@
 .App {
   text-align: center;
-  width: 50%;
+  width: 500px;
+  border-style: solid;
+  padding: 25px;
 }
 
 .App-logo {
@@ -20,4 +22,11 @@
 
 .App-link {
   color: #09d3ac;
+}
+
+.release{
+  background-color: silver;
+  padding: 7px;
+  border-style: groove;
+  border-color: black;
 }
