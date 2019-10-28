@@ -1,10 +1,20 @@
-import React, {Component} from 'react';
+import React, {Component, Fragment} from 'react';
+import Film from './Film'
 
 class FilmList extends Component {
 
     render(){
+
+        const filmList = this.props.films.map(film =>{
+            return(
+                <Film key={film.id} url={film.url}> {film.name} </Film>
+            )
+        })
+
         return(
-            <h1>HELLOO </h1>
+            <Fragment>
+                {filmList}
+            </Fragment>
         )
     }
 }

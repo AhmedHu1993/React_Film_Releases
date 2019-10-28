@@ -4,7 +4,7 @@ class UpcomingReleases extends Component {
 
     render(){
         return(
-            <h1>releases</h1>
+            <a href = 'https://www.imdb.com/calendar/?region=gb' > View more upcoming Releases >> </a>
         )
     }
 }
