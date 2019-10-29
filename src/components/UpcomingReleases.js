@@ -5,7 +5,7 @@ class UpcomingReleases extends Component {
 
     render(){
         return(
-            <a className='release' href = 'https://www.imdb.com/calendar/?region=gb' > View more upcoming Releases >> </a>
+            <a className='release' href = 'https://www.imdb.com/calendar/?region=gb' target='blank' > View more upcoming Releases >> </a>
         )
     }
 }
